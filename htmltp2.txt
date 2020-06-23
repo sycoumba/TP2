@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TP HTML CSS JS </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/control.js"> </script>
+</head>
+<body>
+<header>
+    <h1>Banque du peuple</h1>
+</header>
+<ul>
+    <li> <a> Home </a></li>   
+    <li> <a> About </a></li>
+    <li> <a> Nos Services</a></li>
+    <li> <a> Nous contactez </a></li>
+</ul></br></br></br>
+<h2> Ouverture Compte</h2>
+<p>Informations Générales</p>
+<div class="form"> </div>
+<form action="##" method="post"></form>
+<div><p> Nom: </p>
+<input type="text" name="nom" id="nom" placeholder="entrer votre nom">
+<p> Prenom </p>
+<input type="text" name="prenom" id="prenom" placeholder="entrer votre prenom"></br></br>
+<p><label for="Sexe"> Sexe:</label></p>
+<select name="sexe" id sexe>
+    <option value="Homme"> Homme</option>
+    <option value="Femme"> Femme</option>
+</select>
+<p> Adresse: </p>
+<input type="text" name="Adresse" id="Adresse" placeholder="entrer votre Adresse">
+<p> Email: </p>
+<input type="text" name="Email" id="Email" placeholder="entrer votre Email">
+<p> Téléphone: </p>
+<input type="text" name="Nom" id="Nom" placeholder="entrer votre Téléphone"></br></br>
+<input type="submit" value="Envoyer">  <input type="reset" value="back"> 
+
+</html>
